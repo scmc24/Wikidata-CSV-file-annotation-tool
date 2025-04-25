@@ -65,6 +65,22 @@ The script includes a 0.5 second delay between requests. For large datasets:
 - Consider local caching of results
 - Contact Wikimedia for bulk access if needed
 
+
+## 📦 CSV Merging Utility
+
+Combine multiple Wikidata CSV outputs into a single consolidated file.
+
+### 🛠️ Features
+- 🔄 Merge unlimited processed CSV files
+- 📊 Preserve original column structure
+- ⚡ Efficient memory handling for large files
+- 🔍 Optional deduplication of identical matches
+
+### 🚀 Basic Usage
+```bash
+python merge_wikidata.py "input_files/*.csv" merged_output.csv
+```
+
 ## Support
 Please open an issue on GitHub for:
 - Bug reports
